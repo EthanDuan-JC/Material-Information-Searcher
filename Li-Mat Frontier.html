@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li-Mat Frontier - 材料技术前沿资讯聚合</title>
+
+    <!-- Chart.js 数据可视化库 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-light-gray: rgb(204, 204, 204);
+            --color-deep-green: rgb(0, 45, 40);
+            --color-warm-gold: rgb(206, 164, 114);
+            --color-dark-gray: rgb(102, 102, 102);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+        }
+
+        /* Hero 区域渐变背景 */
+        .hero-gradient {
+            background: linear-gradient(135deg, var(--color-deep-green) 0%, rgba(0, 45, 40, 0.85) 100%);
+        }
+
+        /* 卡片样式 */
+        .stat-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--color-warm-gold);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 文章卡片 */
+        .article-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(204, 204, 204, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--color-deep-green), var(--color-warm-gold));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .article-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+            border-color: var(--color-warm-gold);
+        }
+
+        /* 分类按钮 */
+        .category-btn {
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
+        }
+
+        .category-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .category-btn.active {
+            background: var(--color-deep-green);
+            color: white;
+            border-color: var(--color-warm-gold);
+        }
+
+        /* 标签云 */
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag-item {
+            padding: 6px 16px;
+            background: linear-gradient(135deg, rgba(0, 45, 40, 0.05), rgba(206, 164, 114, 0.05));
+            border-radius: 20px;
+            font-size: 13px;
+            color: var(--color-dark-gray);
+            transition: all 0.2s ease;
+            border: 1px solid rgba(206, 164, 114, 0.2);
+        }
+
+        .tag-item:hover {
+            background: var(--color-warm-gold);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* 加载动画 */
+        .loader {
+            border: 3px solid var(--color-light-gray);
+            border-top: 3px solid var(--color-deep-green);
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 分享按钮 */
+        .share-btn {
+            background: rgba(206, 164, 114, 0.1);
+            color: var(--color-warm-gold);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(206, 164, 114, 0.3);
+        }
+
+        .share-btn:hover {
+            background: var(--color-warm-gold);
+            color: white;
+        }
+
+        /* 图标样式 */
+        .material-icons {
+            vertical-align: middle;
+        }
+
+        /* 图表容器 */
+        .chart-container {
+            position: relative;
+            height: 300px;
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-4">Li-Mat Frontier</h1>
+                <p class="text-xl opacity-90 mb-2">材料技术前沿资讯聚合 | 仅供个人研究、学习使用</p>
+                <p class="text-xs opacity-75">每日 8:50 自动依据相关性及时效性更新 50 篇资讯</p>
+                <div class="mt-6 inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-lg">
+                    <span class="material-icons text-sm mr-2">schedule</span>
+                    <span class="text-sm">最后更新: <span id="lastUpdate">加载中...</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Dashboard -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: var(--color-dark-gray)">总文章数</p>
+                        <p class="text-3xl font-bold mt-2" style="color: var(--color-deep-green)" id="totalCount">0</p>
+                    </div>
+                    <span class="material-icons text-4xl" style="color: var(--color-warm-gold)">article</span>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: var(--color-dark-gray)">材料创新</p>
+                        <p class="text-3xl font-bold mt-2" style="color: var(--color-deep-green)" id="innovationCount">0</p>
+                    </div>
+                    <span class="material-icons text-4xl" style="color: var(--color-warm-gold)">science</span>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: var(--color-dark-gray)">汽车防腐</p>
+                        <p class="text-3xl font-bold mt-2" style="color: var(--color-deep-green)" id="corrosionCount">0</p>
+                    </div>
+                    <span class="material-icons text-4xl" style="color: var(--color-warm-gold)">shield</span>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: var(--color-dark-gray)">车内健康</p>
+                        <p class="text-3xl font-bold mt-2" style="color: var(--color-deep-green)" id="healthCount">0</p>
+                    </div>
+                    <span class="material-icons text-4xl" style="color: var(--color-warm-gold)">health_and_safety</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Charts Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- 分类分布图 -->
+            <div class="chart-container" style="position: relative;">
+                <h3 class="text-lg font-bold mb-4" style="color: var(--color-deep-green)">
+                    <span class="material-icons text-sm mr-1">pie_chart</span>
+                    分类分布
+                </h3>
+                <div style="display: flex; align-items: flex-start; height: 240px; padding-top: 10px;">
+                    <!-- 左侧图例 -->
+                    <div id="categoryLegend" style="width: 120px; display: flex; flex-direction: column; justify-content: center; gap: 8px;">
+                        <!-- 动态生成图例 -->
+                    </div>
+                    <!-- 右侧图表 -->
+                    <div style="flex: 1; height: 180px; margin-top: -10px;">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 热门标签云 -->
+            <div class="chart-container">
+                <h3 class="text-lg font-bold mb-4" style="color: var(--color-deep-green)">
+                    <span class="material-icons text-sm mr-1">local_offer</span>
+                    热门标签
+                </h3>
+                <div id="tagCloud" class="tag-cloud" style="height: 260px; overflow-y: auto; display: flex; flex-wrap: wrap; align-content: flex-start;">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 分类导航 -->
+    <nav class="sticky top-0 z-40 bg-white shadow-sm mb-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex overflow-x-auto py-4 space-x-3" id="categoryNav">
+                <!-- 动态生成 -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- 文章列表 -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <!-- 加载状态 -->
+        <div id="loadingState" class="flex flex-col items-center justify-center py-20">
+            <div class="loader"></div>
+            <p class="mt-6 font-medium" style="color: var(--color-dark-gray)">正在加载资讯...</p>
+        </div>
+
+        <!-- 文章列表 -->
+        <div id="articleList" class="space-y-6 hidden">
+            <!-- 动态生成 -->
+        </div>
+
+        <!-- 空状态 -->
+        <div id="emptyState" class="text-center py-20 hidden">
+            <span class="material-icons text-6xl" style="color: var(--color-light-gray)">article</span>
+            <p class="mt-4 text-lg" style="color: var(--color-dark-gray)">暂无相关资讯</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm font-medium" style="color: var(--color-dark-gray)">Li-Mat Frontier | 材料技术前沿资讯聚合</p>
+            <p class="text-xs mt-2" style="color: var(--color-light-gray)">数据来源于各网站官方 RSS 源 | 仅供个人学习研究使用</p>
+        </div>
+    </footer>
+
+    <script>
+        // 全局变量
+        let allArticles = [];
+        let currentCategory = '全部';
+        let categories = [];
+        let categoryChart;
+
+        // 初始化
+        async function init() {
+            console.log('🚀 初始化中...');
+            await loadData();
+        }
+
+        // 加载数据
+        async function loadData() {
+            try {
+                const timestamp = new Date().getTime();
+                const response = await fetch(`data/news.json?t=${timestamp}`);
+
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                const data = await response.json();
+                allArticles = data.articles || [];
+                categories = data.categories || [];
+
+                document.getElementById('lastUpdate').textContent = data.updateTime || '未知';
+
+                updateStats();
+                generateCharts();
+                generateTagCloud();
+                generateCategoryNav();
+                renderArticles();
+                hideLoading();
+
+                console.log(`✅ 加载成功: ${allArticles.length} 篇文章`);
+            } catch (error) {
+                console.error('❌ 加载失败:', error);
+                showError();
+            }
+        }
+
+        // 更新统计数据
+        function updateStats() {
+            document.getElementById('totalCount').textContent = allArticles.length;
+            document.getElementById('innovationCount').textContent =
+                allArticles.filter(a => a.category === '材料创新').length;
+            document.getElementById('corrosionCount').textContent =
+                allArticles.filter(a => a.category === '汽车防腐').length;
+            document.getElementById('healthCount').textContent =
+                allArticles.filter(a => a.category === '车内健康').length;
+        }
+
+        // 生成图表
+        function generateCharts() {
+            // 分类分布饼图 - 只显示3个分类
+            const categoryCounts = {};
+            categories.forEach(cat => {
+                categoryCounts[cat] = allArticles.filter(a => a.category === cat).length;
+            });
+
+            const colors = [
+                'rgba(0, 45, 40, 0.8)',      // 深绿 - 材料创新
+                'rgba(206, 164, 114, 0.8)',  // 暖金 - 汽车防腐
+                'rgba(102, 102, 102, 0.8)'   // 深灰 - 车内健康
+            ];
+
+            // 生成左侧自定义图例
+            const legendContainer = document.getElementById('categoryLegend');
+            legendContainer.innerHTML = '';
+            categories.forEach((cat, index) => {
+                const legendItem = document.createElement('div');
+                legendItem.style.cssText = 'display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--color-dark-gray);';
+                legendItem.innerHTML = `
+                    <span style="width: 12px; height: 12px; background: ${colors[index]}; border-radius: 50%; display: inline-block;"></span>
+                    <span>${cat}</span>
+                `;
+                legendContainer.appendChild(legendItem);
+            });
+
+            const ctx1 = document.getElementById('categoryChart');
+            categoryChart = new Chart(ctx1, {
+                type: 'doughnut',
+                data: {
+                    labels: categories,
+                    datasets: [{
+                        data: Object.values(categoryCounts),
+                        backgroundColor: colors,
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: {
+                            display: false  // 隐藏默认图例
+                        }
+                    }
+                }
+            });
+        }
+
+        // 生成标签云
+        function generateTagCloud() {
+            const keywords = [
+                'carbon fiber', 'coating', 'composite', 'corrosion', 'polymer',
+                'aluminum', 'steel', 'plastic', 'sustainability', 'recycling',
+                'graphene', 'epoxy', 'automotive', 'lightweight', 'material'
+            ];
+
+            const tagCloud = document.getElementById('tagCloud');
+            keywords.forEach(keyword => {
+                const tag = document.createElement('span');
+                tag.className = 'tag-item';
+                tag.textContent = keyword;
+                tagCloud.appendChild(tag);
+            });
+        }
+
+        // 生成分类导航
+        function generateCategoryNav() {
+            const nav = document.getElementById('categoryNav');
+            const allCategories = ['全部', ...categories];
+
+            allCategories.forEach(category => {
+                const button = document.createElement('button');
+                button.className = `category-btn px-6 py-2 rounded-lg text-sm font-medium whitespace-nowrap ${
+                    category === currentCategory ? 'active' : ''
+                }`;
+                button.style.cssText = category === currentCategory
+                    ? 'background: var(--color-deep-green); color: white; border-color: var(--color-warm-gold);'
+                    : 'background: white; color: var(--color-dark-gray);';
+                button.textContent = category;
+                button.onclick = () => switchCategory(category);
+                nav.appendChild(button);
+            });
+        }
+
+        // 切换分类
+        function switchCategory(category) {
+            currentCategory = category;
+
+            // 更新按钮样式
+            const buttons = document.querySelectorAll('#categoryNav button');
+            buttons.forEach(btn => {
+                if (btn.textContent === category) {
+                    btn.classList.add('active');
+                    btn.style.cssText = 'background: var(--color-deep-green); color: white; border-color: var(--color-warm-gold);';
+                } else {
+                    btn.classList.remove('active');
+                    btn.style.cssText = 'background: white; color: var(--color-dark-gray);';
+                }
+            });
+
+            renderArticles();
+        }
+
+        // 渲染文章
+        function renderArticles() {
+            const container = document.getElementById('articleList');
+            const emptyState = document.getElementById('emptyState');
+            container.innerHTML = '';
+
+            let filtered = currentCategory === '全部'
+                ? allArticles
+                : allArticles.filter(a => a.category === currentCategory);
+
+            if (filtered.length === 0) {
+                container.classList.add('hidden');
+                emptyState.classList.remove('hidden');
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+            container.classList.remove('hidden');
+
+            filtered.forEach(article => {
+                const card = createArticleCard(article);
+                container.appendChild(card);
+            });
+        }
+
+        // 创建文章卡片
+        function createArticleCard(article) {
+            const card = document.createElement('div');
+            card.className = 'article-card';
+
+            const date = new Date(article.date);
+            const dateStr = date.toLocaleDateString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit'
+            });
+
+            card.innerHTML = `
+                <div class="flex items-start justify-between mb-4">
+                    <div class="flex items-center space-x-3">
+                        <span class="material-icons text-sm" style="color: var(--color-warm-gold)">schedule</span>
+                        <span class="text-sm" style="color: var(--color-dark-gray)">${dateStr}</span>
+                        <span class="px-3 py-1 rounded-full text-xs font-medium"
+                              style="background: rgba(206, 164, 114, 0.15); color: var(--color-deep-green)">
+                            ${escapeHtml(article.category)}
+                        </span>
+                    </div>
+                    <button class="share-btn" onclick="shareArticle('${escapeHtml(article.link)}', '${escapeHtml(article.title)}')">
+                        <span class="material-icons text-sm">share</span>
+                        分享
+                    </button>
+                </div>
+
+                <h3 class="text-xl font-bold mb-3 cursor-pointer transition-colors hover:opacity-80"
+                    style="color: var(--color-deep-green)"
+                    onclick="window.open('${escapeHtml(article.link)}', '_blank')">
+                    ${escapeHtml(article.title)}
+                </h3>
+
+                <p class="text-sm leading-relaxed mb-4" style="color: var(--color-dark-gray)">
+                    ${escapeHtml(article.summary || article.description)}
+                </p>
+
+                <button onclick="window.open('${escapeHtml(article.link)}', '_blank')"
+                        class="inline-flex items-center text-sm font-medium transition-colors"
+                        style="color: var(--color-warm-gold)">
+                    查看原文
+                    <span class="material-icons text-sm ml-1">arrow_forward</span>
+                </button>
+            `;
+
+            return card;
+        }
+
+        // 分享文章
+        function shareArticle(url, title) {
+            if (navigator.share) {
+                navigator.share({ title, url });
+            } else {
+                navigator.clipboard.writeText(url);
+                alert('链接已复制到剪贴板！');
+            }
+        }
+
+        // HTML转义
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text || '';
+            return div.innerHTML;
+        }
+
+        // 隐藏加载状态
+        function hideLoading() {
+            document.getElementById('loadingState').classList.add('hidden');
+            document.getElementById('articleList').classList.remove('hidden');
+        }
+
+        // 显示错误
+        function showError() {
+            const loadingState = document.getElementById('loadingState');
+            loadingState.innerHTML = `
+                <span class="material-icons text-6xl" style="color: var(--color-light-gray)">error_outline</span>
+                <p class="mt-4 text-lg" style="color: var(--color-dark-gray)">加载失败</p>
+                <button onclick="location.reload()"
+                        class="mt-4 px-6 py-2 rounded-lg text-white"
+                        style="background: var(--color-deep-green)">
+                    重新加载
+                </button>
+            `;
+        }
+
+        // 页面加载
+        window.addEventListener('DOMContentLoaded', init);
+    </script>
+
+</body>
+</html>
