@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url=Li-Mat Frontier.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳转中...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            text-align: center;
+        }
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Li-Mat Frontier</h1>
+        <p>正在跳转到汽车材料前沿资讯平台...</p>
+        <div class="spinner"></div>
+        <p><a href="Li-Mat Frontier.html" style="color: white; text-decoration: underline;">如果没有自动跳转，请点击这里</a></p>
+    </div>
+    <script>
+        // 备用跳转方案
+        setTimeout(function() {
+            window.location.href = 'Li-Mat Frontier.html';
+        }, 100);
+    </script>
+</body>
+</html>
