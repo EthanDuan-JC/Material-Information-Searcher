@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-14T05:14:49.165Z",
-  "updateTime": "2026/3/14 05:14:49",
+  "lastUpdated": "2026-03-15T05:50:24.561Z",
+  "updateTime": "2026/3/15 05:50:24",
   "totalArticles": 50,
   "categories": [
     "材料创新",
@@ -237,6 +237,16 @@
       "summary": "David Hutton of PlasticsToday presents the Week in Review, highlighting key developments in the plastics industry....",
       "relevanceScore": 30,
       "finalScore": 65
+    },
+    {
+      "title": "Husco Expands US Manufacturing with Mayfair Plastics Acquisition",
+      "link": "https://www.plasticstoday.com/injection-molding/husco-expands-us-manufacturing-with-mayfair-plastics-acquisition",
+      "date": "2026-03-13T16:59:08.000Z",
+      "category": "材料创新",
+      "description": "Husco has acquired Mayfair Plastics, a Michigan-based injection molding company, to expand its US-based manufacturing capabilities and meet growing demand for advanced automotive solutions.",
+      "summary": "Husco has acquired Mayfair Plastics, a Michigan-based injection molding company, to expand its US-based manufacturing capabilities and meet growing de...",
+      "relevanceScore": 30,
+      "finalScore": 64.98080134256269
     },
     {
       "title": "Multiscale analysis reveals biofilm dynamics on hydrophobic fouling-release coatings",
@@ -497,16 +507,6 @@
       "summary": "A breakthrough in wood coating technology: modified cellulose nanocrystals (CNCs) enable superior adhesion, UV stability, and corrosion resistance in ...",
       "relevanceScore": 40,
       "finalScore": 62.20702310042065
-    },
-    {
-      "title": "Industrial coatings market: Resilience amidst uncertainty",
-      "link": "https://www.european-coatings.com/news/industrial-coatings-market-resilience-amidst-uncertainty/",
-      "date": "2026-02-26T06:00:53.000Z",
-      "category": "汽车防腐",
-      "description": "The following analysis will give an overview of the global ­industrial coatings market. It provides insights the relevant segments of industrial coatings – by analysing the segment ­specific growth drivers and regional growth trends. By Ashish Ladha and Prasuk Jain, Aditya Birla Group.",
-      "summary": "The following analysis will give an overview of the global ­industrial coatings market. It provides insights the relevant segments of industrial coati...",
-      "relevanceScore": 30,
-      "finalScore": 61.91934331101123
     }
   ]
 }
