@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-14T03:55:03.894Z",
-  "updateTime": "2026/4/14 03:55:03",
+  "lastUpdated": "2026-04-15T03:53:46.596Z",
+  "updateTime": "2026/4/15 03:53:46",
   "totalArticles": 50,
   "categories": [
     "材料创新",
@@ -16,7 +16,7 @@
       "description": "Researchers at Georgia Tech have developed \"living\" polymers capable of growing, shrinking, healing, and regenerating after fabrication. This innovation, led by Yuhang Hu, PhD, combines chemistry, mechanics, and materials science, offering potential applications in aerospace, robotics, and sustainable materials.",
       "summary": "Researchers at Georgia Tech have developed \"living\" polymers capable of growing, shrinking, healing, and regenerating after fabrication. This innovati...",
       "relevanceScore": 60,
-      "finalScore": 78.73670253180092
+      "finalScore": 78.51350464650537
     },
     {
       "title": "Resin Price Report: Feedstock Costs Just Reset the Plastic Resin Market",
@@ -26,7 +26,7 @@
       "description": "The buyer-side window is narrowing, but it’s not closed. Here’s what resin buyers need to do before April locks in.",
       "summary": "The buyer-side window is narrowing, but it’s not closed. Here’s what resin buyers need to do before April locks in....",
       "relevanceScore": 60,
-      "finalScore": 78.5514006528079
+      "finalScore": 78.32579205299805
     },
     {
       "title": "Functionalised aluminium oxide enhances corrosion resistance of epoxy coatings on mild steel",
@@ -36,7 +36,7 @@
       "description": "A study demonstrates how functionalised aluminium oxide nanoparticles (Al₂O₃F) improve the corrosion resistance of epoxy coatings, paving the way for advanced protective applications in aggressive environments.",
       "summary": "A study demonstrates how functionalised aluminium oxide nanoparticles (Al₂O₃F) improve the corrosion resistance of epoxy coatings, paving the way for ...",
       "relevanceScore": 60,
-      "finalScore": 73.29317999163794
+      "finalScore": 72.99916372680038
     },
     {
       "title": "Sustainable anti-corrosion coating systems for steel bridges",
@@ -46,7 +46,7 @@
       "description": "A recent study evaluates the long-term sustainability of anticorrosion coating systems for steel bridges, considering performance, costs, and environmental as well as social impacts over a seventy-five-year service life.",
       "summary": "A recent study evaluates the long-term sustainability of anticorrosion coating systems for steel bridges, considering performance, costs, and environm...",
       "relevanceScore": 90,
-      "finalScore": 71.67914153631875
+      "finalScore": 71.16898227356512
     },
     {
       "title": "Amphiphilic materials advance sustainable anti-fouling and anti-corrosion coatings",
@@ -56,7 +56,7 @@
       "description": "A new review highlights the latest developments in environmentally friendly amphiphilic coatings designed to prevent fouling and combat corrosion – a safer alternative to toxic tributyltin-based systems now largely banned.",
       "summary": "A new review highlights the latest developments in environmentally friendly amphiphilic coatings designed to prevent fouling and combat corrosion – a ...",
       "relevanceScore": 90,
-      "finalScore": 55.83573692418044
+      "finalScore": 55.119460348091195
     },
     {
       "title": "Polydopamine-graphene boosts anticorrosion performance of waterborne zinc-rich epoxy coatings",
@@ -66,7 +66,7 @@
       "description": "A new polydopamine-modified graphene (PDA-G) filler significantly enhances the adhesion, dispersibility, and corrosion resistance of waterborne zinc-rich epoxy coatings (WZEP). The innovation demonstrates extended cathodic protection and exceptional durability in harsh environments, offering promising applications for marine and industrial steel protection.",
       "summary": "A new polydopamine-modified graphene (PDA-G) filler significantly enhances the adhesion, dispersibility, and corrosion resistance of waterborne zinc-r...",
       "relevanceScore": 70,
-      "finalScore": 72.7036533142503
+      "finalScore": 72.33691920563069
     },
     {
       "title": "Non-toxic phosphorus-sulfur flame retardants for fire-safe aircraft seat textiles",
@@ -76,7 +76,7 @@
       "description": "A new study investigates phosphorus-sulfur compounds as safe and effective flame-retardant solutions for polyamide-based aircraft seat textiles applied via a back-coating method.",
       "summary": "A new study investigates phosphorus-sulfur compounds as safe and effective flame-retardant solutions for polyamide-based aircraft seat textiles applie...",
       "relevanceScore": 60,
-      "finalScore": 64.89739459150417
+      "finalScore": 64.49415200995105
     },
     {
       "title": "From residues to resources: Fraunhofer WKI advances bio-based, formaldehyde-free adhesives for particleboard",
@@ -86,7 +86,7 @@
       "description": "Within the “LowEPanel” project, Fraunhofer WKI and partners are trialling formaldehyde-free lignin–HMF condensation resins for the manufacture of sustainable particleboards from regional wood residues, aiming to establish fully bio-based binders and optimise the value chain.",
       "summary": "Within the “LowEPanel” project, Fraunhofer WKI and partners are trialling formaldehyde-free lignin–HMF condensation resins for the manufacture of sust...",
       "relevanceScore": 60,
-      "finalScore": 46.2644047833975
+      "finalScore": 45.618753332496055
     },
     {
       "title": "Double-encapsulation structures create multifunctional flame-retardant, antibacterial, and hydrophobic cotton fabrics",
@@ -96,7 +96,7 @@
       "description": "Researchers have developed a bio-based double-encapsulation strategy using β-cyclodextrin and L-arginine to produce cotton fabrics with flame-retardant, antibacterial, and hydrophobic properties, meeting diverse application demands.",
       "summary": "Researchers have developed a bio-based double-encapsulation strategy using β-cyclodextrin and L-arginine to produce cotton fabrics with flame-retardan...",
       "relevanceScore": 40,
-      "finalScore": 61.907495542551736
+      "finalScore": 61.59545199363169
     },
     {
       "title": "Breathable coating technology transforms rust stabilisation for weathering steels",
@@ -106,7 +106,7 @@
       "description": "Inspired by textile industry innovations, a novel breathable coating with SiO₂ nanoparticles enhances rust stabilisation on weathering steels, offering efficiency, eco-friendliness, and durability.",
       "summary": "Inspired by textile industry innovations, a novel breathable coating with SiO₂ nanoparticles enhances rust stabilisation on weathering steels, offerin...",
       "relevanceScore": 60,
-      "finalScore": 79.9101759273991
+      "finalScore": 79.70224453245034
     },
     {
       "title": "Graphene-based epoxy coatings push corrosion resistance limits for steel reinforcement",
@@ -116,7 +116,7 @@
       "description": "A comprehensive review highlights the advancements of graphene nanofillers in epoxy coatings, offering over 99 % corrosion resistance in chloride-rich environments. The study examines performance mechanisms, long-term durability, and practical synthesis methods.",
       "summary": "A comprehensive review highlights the advancements of graphene nanofillers in epoxy coatings, offering over 99 % corrosion resistance in chloride-rich...",
       "relevanceScore": 60,
-      "finalScore": 78.69382509727924
+      "finalScore": 78.47006939112242
     },
     {
       "title": "Epoxy-carbon composite coatings for corrosion and fouling resistance",
@@ -126,7 +126,7 @@
       "description": "A review highlights the transformative impact of carbon-based nanomaterials on epoxy systems, enabling multifunctional, eco-friendly coatings with integrated corrosion and antifouling resistance.",
       "summary": "A review highlights the transformative impact of carbon-based nanomaterials on epoxy systems, enabling multifunctional, eco-friendly coatings with int...",
       "relevanceScore": 60,
-      "finalScore": 77.50767545981188
+      "finalScore": 77.26848834970659
     },
     {
       "title": "Dual-functional benzoxazine/epoxy composite coating offers corrosion protection and antibacterial applications",
@@ -136,7 +136,7 @@
       "description": "A novel sol-gel coating integrates benzoxazine and epoxy to achieve exceptional corrosion resistance and antibacterial activity, paving the way for multifunctional surface protection.",
       "summary": "A novel sol-gel coating integrates benzoxazine and epoxy to achieve exceptional corrosion resistance and antibacterial activity, paving the way for mu...",
       "relevanceScore": 60,
-      "finalScore": 77.09170495406741
+      "finalScore": 76.84710620895248
     },
     {
       "title": "World Paint and Coatings Week 2026 focuses on global impact of coatings",
@@ -146,7 +146,7 @@
       "description": "The 2026 World Paint and Coatings Week (WPCW) has officially begun, running from 23 to 27 March. The event highlights the essential role of coatings in industries, sustainability, and innovation.",
       "summary": "The 2026 World Paint and Coatings Week (WPCW) has officially begun, running from 23 to 27 March. The event highlights the essential role of coatings i...",
       "relevanceScore": 60,
-      "finalScore": 75.71438626782533
+      "finalScore": 75.45186907436138
     },
     {
       "title": "Aerospace coatings: Indestructible Paint acquired by Seaforth Holdings",
@@ -156,7 +156,7 @@
       "description": "The Birmingham-based company, known for its bespoke solutions in aerospace applications, will continue operations under its existing management team.",
       "summary": "The Birmingham-based company, known for its bespoke solutions in aerospace applications, will continue operations under its existing management team....",
       "relevanceScore": 60,
-      "finalScore": 73.74662475340602
+      "finalScore": 73.45850765092212
     },
     {
       "title": "Two-step electrodeposition enables robust superhydrophobic Cu-Ni/stearate coatings with excellent anticorrosion properties",
@@ -166,17 +166,7 @@
       "description": "An innovative two-step electrodeposition process creates superhydrophobic Cu-Ni/cerium stearate coatings, providing outstanding corrosion resistance and anti-aging performance for metals in harsh environments.",
       "summary": "An innovative two-step electrodeposition process creates superhydrophobic Cu-Ni/cerium stearate coatings, providing outstanding corrosion resistance a...",
       "relevanceScore": 60,
-      "finalScore": 71.70543661834986
-    },
-    {
-      "title": "Smart coatings: from lab curiosity to industrial reality",
-      "link": "https://www.european-coatings.com/news/markets-companies/smart-coatings-from-lab-curiosity-to-industrial-reality/",
-      "date": "2026-03-16T09:39:42.000Z",
-      "category": "汽车防腐",
-      "description": "A European Coatings survey reveals that antimicrobial, anti-corrosion and self-cleaning technologies are driving the smart coatings market – but significant barriers remain.",
-      "summary": "A European Coatings survey reveals that antimicrobial, anti-corrosion and self-cleaning technologies are driving the smart coatings market – but signi...",
-      "relevanceScore": 50,
-      "finalScore": 69.30701950605436
+      "finalScore": 71.39076435144833
     },
     {
       "title": "Fluorine-free superhydrophobic coating sets new standards for durability and eco-friendly performance",
@@ -186,7 +176,17 @@
       "description": "A robust, fluorine-free superhydrophobic coating demonstrates exceptional durability, anti-icing, corrosion resistance, and self-cleaning properties, offering sustainable solutions for multifunctional surface applications.",
       "summary": "A robust, fluorine-free superhydrophobic coating demonstrates exceptional durability, anti-icing, corrosion resistance, and self-cleaning properties, ...",
       "relevanceScore": 40,
-      "finalScore": 69.3023728653443
+      "finalScore": 69.08653415897764
+    },
+    {
+      "title": "Smart coatings: from lab curiosity to industrial reality",
+      "link": "https://www.european-coatings.com/news/markets-companies/smart-coatings-from-lab-curiosity-to-industrial-reality/",
+      "date": "2026-03-16T09:39:42.000Z",
+      "category": "汽车防腐",
+      "description": "A European Coatings survey reveals that antimicrobial, anti-corrosion and self-cleaning technologies are driving the smart coatings market – but significant barriers remain.",
+      "summary": "A European Coatings survey reveals that antimicrobial, anti-corrosion and self-cleaning technologies are driving the smart coatings market – but signi...",
+      "relevanceScore": 50,
+      "finalScore": 69.02619294898358
     },
     {
       "title": "Zinc oxide nanofillers optimise fluoropolymer coatings for enhanced corrosion protection",
@@ -196,7 +196,7 @@
       "description": "Researchers demonstrate how zinc oxide (ZnO) content gradients in fluoropolymer coatings improve corrosion resistance on carbon steel substrates. The optimised 0.50 % ZnO system shows superior durability and chloride ion barrier performance.",
       "summary": "Researchers demonstrate how zinc oxide (ZnO) content gradients in fluoropolymer coatings improve corrosion resistance on carbon steel substrates. The ...",
       "relevanceScore": 60,
-      "finalScore": 68.70588608670633
+      "finalScore": 68.35219068608245
     },
     {
       "title": "Trump Revises Tariffs, Impacting Plastics Industry Imports",
@@ -206,7 +206,7 @@
       "description": "The latest presidential proclamation revises Section 232 tariffs, introducing full-value treatment for derivative products, impacting costs for plastics machinery, molds, and parts. The changes include a 15% tariff on industrial equipment, a 10% levy on US-origin metal goods, and streamlined tariff assessments. Industry stakeholders must review HTS classifications and annex inclusions to ensure compliance and mitigate costs.",
       "summary": "The latest presidential proclamation revises Section 232 tariffs, introducing full-value treatment for derivative products, impacting costs for plasti...",
       "relevanceScore": 40,
-      "finalScore": 68.55441659615158
+      "finalScore": 68.3288472327404
     },
     {
       "title": "A closer look at the coatings market in Türkiye",
@@ -216,7 +216,77 @@
       "description": "The paint and coatings market in Türkiye has evolved into a major player in the region and offers growth potential. How is the situation currently? By Engin Çörülü und Mustafa Tunçgenç, EVA Training & Research Consultancy.",
       "summary": "The paint and coatings market in Türkiye has evolved into a major player in the region and offers growth potential. How is the situation currently? By...",
       "relevanceScore": 40,
-      "finalScore": 65.95007064035298
+      "finalScore": 65.69061962053351
+    },
+    {
+      "title": "Xaloy Buys Italian Supplier of Plasticizing Components",
+      "link": "https://www.plasticstoday.com/business/xaloy-buys-italian-supplier-of-plasticizing-components",
+      "date": "2026-04-14T18:31:25.000Z",
+      "category": "材料创新",
+      "description": "Headquartered in Italy with a second facility in the Netherlands, Maxi Melt develops and manufactures parts for extrusion and injection molding.",
+      "summary": "Headquartered in Italy with a second facility in the Netherlands, Maxi Melt develops and manufactures parts for extrusion and injection molding....",
+      "relevanceScore": 30,
+      "finalScore": 64.98967584260917
+    },
+    {
+      "title": "Resin Price Report: The Suppliers Already Read the Script. Have You?",
+      "link": "https://www.plasticstoday.com/resin-pricing/resin-prices-surge-across-all-categories-as-buyers-face-compounding-challenges-in-april-negotiations",
+      "date": "2026-04-14T15:33:53.000Z",
+      "category": "材料创新",
+      "description": "When the entire resin cost stack shifts simultaneously, as is happening now, the buyers who protect their margins are the ones who already know their number before the increase letter arrives.",
+      "summary": "When the entire resin cost stack shifts simultaneously, as is happening now, the buyers who protect their margins are the ones who already know their ...",
+      "relevanceScore": 30,
+      "finalScore": 64.96464216982812
+    },
+    {
+      "title": "Matium Builds Infrastructure to Modernize US Plastics Market, Improve Efficiency",
+      "link": "https://www.plasticstoday.com/materials/matium-builds-infrastructure-to-modernize-us-plastics-market-improve-efficiency",
+      "date": "2026-04-14T14:37:00.000Z",
+      "category": "材料创新",
+      "description": "Matium hopes to transform the US plastics market by digitizing supply chains, securing $8M in funding, and introducing scalable trade finance solutions.",
+      "summary": "Matium hopes to transform the US plastics market by digitizing supply chains, securing $8M in funding, and introducing scalable trade finance solution...",
+      "relevanceScore": 30,
+      "finalScore": 64.95662114793538
+    },
+    {
+      "title": "Curbell Plastics Expands Reach Across Western US With Interstate Advanced Materials Acquisition",
+      "link": "https://www.plasticstoday.com/business/curbell-plastics-expands-reach-across-western-us-with-interstate-advanced-materials-acquisition",
+      "date": "2026-04-14T14:23:37.000Z",
+      "category": "材料创新",
+      "description": "The deal also broadens Curbell’s customer portfolio, including in the medical, aerospace, and agriculture sectors.",
+      "summary": "The deal also broadens Curbell’s customer portfolio, including in the medical, aerospace, and agriculture sectors....",
+      "relevanceScore": 30,
+      "finalScore": 64.95473398690991
+    },
+    {
+      "title": "EC Podcast: BCF on regulation, raw materials and the UK coatings landscape",
+      "link": "https://www.european-coatings.com/news/markets-companies/ec-podcast-bcf-on-regulation-raw-materials-and-the-uk-coatings-landscape/",
+      "date": "2026-04-14T12:53:20.000Z",
+      "category": "汽车防腐",
+      "description": "What are the biggest challenges facing the UK coatings industry today—and how is the British Coatings Federation (BCF) advocating for its members? In the latest episode of the European Coatings Podcast, editor Yeray Arauco speaks with Tom Bowtell, CEO of the BCF, about the association's role, the current market situation and the critical issues of regulation and raw materials.",
+      "summary": "What are the biggest challenges facing the UK coatings industry today—and how is the British Coatings Federation (BCF) advocating for its members? In ...",
+      "relevanceScore": 30,
+      "finalScore": 64.94200328793744
+    },
+    {
+      "title": "Runaway silicone polymerisation enables innovative fire-shielding coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/runaway-silicone-polymerisation-enables-innovative-fire-shielding-coatings/",
+      "date": "2026-04-14T08:49:30.000Z",
+      "category": "材料创新",
+      "description": "A novel intumescent silicone coating harnesses runaway hydrosilylation polymerisation to deliver exceptional thermal stability, flame resistance, and protective performance for fire-prone materials.",
+      "summary": "A novel intumescent silicone coating harnesses runaway hydrosilylation polymerisation to deliver exceptional thermal stability, flame resistance, and ...",
+      "relevanceScore": 30,
+      "finalScore": 64.90762076514486
+    },
+    {
+      "title": "Henkel launches PFAS-free coatings for auto displays",
+      "link": "https://www.automotiveworld.com/news/henkel-launches-pfas-free-coatings-for-auto-displays/",
+      "date": "2026-04-14T05:25:59.000Z",
+      "category": "汽车防腐",
+      "description": "Henkel's new Loctite AF coatings address tightening PFAS regulations while meeting durability and optical performance demands for in-cabin displays\nThe post Henkel launches PFAS-free coatings for auto displays appeared first on Automotive World.",
+      "summary": "Henkel's new Loctite AF coatings address tightening PFAS regulations while meeting durability and optical performance demands for in-cabin displays\nTh...",
+      "relevanceScore": 30,
+      "finalScore": 64.87892322681128
     },
     {
       "title": "Fallout From Iran War an ‘Existential’ Threat to UK Plastics Industry",
@@ -226,17 +296,7 @@
       "description": "Widespread raw material shortages and steep cost increases have created a “situation unprecedented in the working lives of senior colleagues in the industry,” said the British Plastics Federation.",
       "summary": "Widespread raw material shortages and steep cost increases have created a “situation unprecedented in the working lives of senior colleagues in the in...",
       "relevanceScore": 30,
-      "finalScore": 64.96471810279161
-    },
-    {
-      "title": "BASF Coatings wins TÜV nod for carbon footprint tool",
-      "link": "https://www.automotiveworld.com/news/basf-coatings-wins-tuv-nod-for-carbon-footprint-tool/",
-      "date": "2026-04-13T04:30:40.000Z",
-      "category": "汽车防腐",
-      "description": "BASF Coatings has received TÜV Rheinland certification for the carbon footprint calculation method in its Eco Impact Assessment tool\nThe post BASF Coatings wins TÜV nod for carbon footprint tool appeared first on Automotive World.",
-      "summary": "BASF Coatings has received TÜV Rheinland certification for the carbon footprint calculation method in its Eco Impact Assessment tool\nThe post BASF Coa...",
-      "relevanceScore": 30,
-      "finalScore": 64.87644144112167
+      "finalScore": 64.75749628302133
     },
     {
       "title": "Unveiling the zinc precursor effect on ZIF-8/g-C₃N₄ epoxy coating performance",
@@ -246,7 +306,7 @@
       "description": "A new study demonstrates how zinc precursors influence the particle size and interfacial interaction of ZIF-8/g-C₃N₄ hybrids, optimising the corrosion protection performance of epoxy coatings.",
       "summary": "A new study demonstrates how zinc precursors influence the particle size and interfacial interaction of ZIF-8/g-C₃N₄ hybrids, optimising the corrosion...",
       "relevanceScore": 40,
-      "finalScore": 64.702927028694
+      "finalScore": 64.42725109403636
     },
     {
       "title": "Dörken Coatings and J.W. Ostendorf enter into partnership",
@@ -256,7 +316,7 @@
       "description": "Dörken Coatings, known among other things for its architectural paints, is undergoing a strategic transformation. With the aim of further developing its own expertise and entering the market with new technologies, the company has entered into another partnership.",
       "summary": "Dörken Coatings, known among other things for its architectural paints, is undergoing a strategic transformation. With the aim of further developing i...",
       "relevanceScore": 40,
-      "finalScore": 64.55866053882659
+      "finalScore": 64.28110774613091
     },
     {
       "title": "PlasticsToday Week in Review: April 10, 2026",
@@ -266,7 +326,7 @@
       "description": "Discover the latest in the plastics industry with PlasticsToday’s Week in Review, hosted by David Hutton.",
       "summary": "Discover the latest in the plastics industry with PlasticsToday’s Week in Review, hosted by David Hutton....",
       "relevanceScore": 30,
-      "finalScore": 64.38458284098058
+      "finalScore": 64.16981365847715
     },
     {
       "title": "Healthy Soil, Healthy People: How Davines Inspires Beauty from the Ground Up",
@@ -276,7 +336,7 @@
       "description": "",
       "summary": "...",
       "relevanceScore": 30,
-      "finalScore": 64.31259923323584
+      "finalScore": 64.09689356844243
     },
     {
       "title": "Coil coatings: Sherwin-Williams completes plant expansion",
@@ -286,7 +346,7 @@
       "description": "Sherwin-Williams has finalised a significant expansion of its coil coatings facility in Bowling Green, Kentucky. The upgrade boosts production capacity by 60 %.",
       "summary": "Sherwin-Williams has finalised a significant expansion of its coil coatings facility in Bowling Green, Kentucky. The upgrade boosts production capacit...",
       "relevanceScore": 30,
-      "finalScore": 64.2918843423775
+      "finalScore": 64.07590918388911
     },
     {
       "title": "Simple Salt Serves as Catalyst to Convert Plastic Waste Into Fuel",
@@ -296,7 +356,7 @@
       "description": "The technique pioneered at Oak Ridge National Laboratory produces high-value-added chemicals from plastic waste without catalytic initiators or solvents at temperatures below 200°C.",
       "summary": "The technique pioneered at Oak Ridge National Laboratory produces high-value-added chemicals from plastic waste without catalytic initiators or solven...",
       "relevanceScore": 30,
-      "finalScore": 64.21306846298108
+      "finalScore": 63.99606793666885
     },
     {
       "title": "Services Sector Fuels 23.4% of US Plastics Demand",
@@ -306,7 +366,7 @@
       "description": "Plastics Industry Association Chief Economist Perc Pineda, PhD, highlights the growing role of services in plastics demand, with healthcare, food services, and household spending driving 23.4% of total US plastics production in 2024.",
       "summary": "Plastics Industry Association Chief Economist Perc Pineda, PhD, highlights the growing role of services in plastics demand, with healthcare, food serv...",
       "relevanceScore": 30,
-      "finalScore": 64.19117967417512
+      "finalScore": 63.97389438215429
     },
     {
       "title": "Camelina oil enabling low-carbon polymer materials through sustainable sourcing – on behalf of Worlée",
@@ -316,7 +376,7 @@
       "description": "",
       "summary": "...",
       "relevanceScore": 30,
-      "finalScore": 64.13643566257421
+      "finalScore": 63.91843816955439
     },
     {
       "title": "On-demand self-healing superhydrophilic coating redefines underwater adhesion",
@@ -326,7 +386,7 @@
       "description": "A novel biomimetic coating integrates on-demand adhesion, self-healing properties, and underwater superoleophobicity, offering innovative solutions for advanced surface engineering in challenging aquatic environments.",
       "summary": "A novel biomimetic coating integrates on-demand adhesion, self-healing properties, and underwater superoleophobicity, offering innovative solutions fo...",
       "relevanceScore": 30,
-      "finalScore": 64.10013530449822
+      "finalScore": 63.881665556148
     },
     {
       "title": "Azelis and Chemetall expand distribution partnership in Canada",
@@ -336,7 +396,7 @@
       "description": "Chemetall, BASF’s surface treatment business, and Azelis, a speciality chemicals distributor, have extended their strategic partnership to cover surface treatment solutions for industrial applications across Canada.",
       "summary": "Chemetall, BASF’s surface treatment business, and Azelis, a speciality chemicals distributor, have extended their strategic partnership to cover surfa...",
       "relevanceScore": 30,
-      "finalScore": 64.0938575024305
+      "finalScore": 63.87530608200742
     },
     {
       "title": "Lead in paint: A hidden threat in Bangladesh",
@@ -346,7 +406,7 @@
       "description": "Lead contamination in paint remains a serious public health issue in Bangladesh, with recent studies showing dangerously high levels in many decorative paints, though the government is now finalising a national strategy to eliminate lead pollution. The Bangladesh Standards and Testing Institution (BSTI), UNICEF, Bangladesh Paint Manufacturer Association (BPMA), and NGOs like ESDO are actively pushing for updated standards and enforcement",
       "summary": "Lead contamination in paint remains a serious public health issue in Bangladesh, with recent studies showing dangerously high levels in many decorativ...",
       "relevanceScore": 30,
-      "finalScore": 64.08020223895282
+      "finalScore": 63.86147316818943
     },
     {
       "title": "Updated: The 2026 Insider’s Guide to Resin Pricing",
@@ -356,7 +416,7 @@
       "description": "Will 2026 bring some stability to the resin markets after a tumultuous 2025? Here’s what the experts have to say.",
       "summary": "Will 2026 bring some stability to the resin markets after a tumultuous 2025? Here’s what the experts have to say....",
       "relevanceScore": 30,
-      "finalScore": 63.990009293281425
+      "finalScore": 63.770106842925784
     },
     {
       "title": "US Plastics Industry Advocates for Recycling and Manufacturing at Legislative Fly-In",
@@ -366,17 +426,17 @@
       "description": "The Plastics Industry Association and the American Chemistry Council will unite industry leaders in Washington, DC, to advocate for policies that strengthen US manufacturing, modernize recycling infrastructure, and drive investment in sustainable solutions.",
       "summary": "The Plastics Industry Association and the American Chemistry Council will unite industry leaders in Washington, DC, to advocate for policies that stre...",
       "relevanceScore": 30,
-      "finalScore": 63.965730949364676
+      "finalScore": 63.74551264599999
     },
     {
-      "title": "“Frontiers in Wood Coatings 2026”: Call for papers open until April 12",
+      "title": "“Frontiers in Wood Coatings 2026”: Call for papers open until April 26",
       "link": "https://www.european-coatings.com/news/coatings-technologies/frontiers-in-wood-coatings-2026-call-for-papers-open-until-april-12/",
       "date": "2026-04-08T09:54:59.000Z",
       "category": "汽车防腐",
-      "description": "The EC Conference “Frontiers in Wood Coatings 2026”, formerely known as PRA's Wood Coatings Congress is calling for papers. Submit your abstract until April 12 and be part of a leading platform for innovation in wood coatings.",
+      "description": "The EC Conference “Frontiers in Wood Coatings 2026”, formerely known as PRA's Wood Coatings Congress is calling for papers. Submit your abstract until April 26 and be part of a leading platform for innovation in wood coatings.",
       "summary": "The EC Conference “Frontiers in Wood Coatings 2026”, formerely known as PRA's Wood Coatings Congress is calling for papers. Submit your abstract until...",
       "relevanceScore": 30,
-      "finalScore": 63.91936430039
+      "finalScore": 63.698542782668994
     },
     {
       "title": "Call for Nominations: Innovations in Automotive Composites",
@@ -386,7 +446,7 @@
       "description": "Winners will be revealed at the SPE Automotive Composites Conference & Exhibition in Novi, MI, in September.",
       "summary": "Winners will be revealed at the SPE Automotive Composites Conference & Exhibition in Novi, MI, in September....",
       "relevanceScore": 30,
-      "finalScore": 63.81540937324568
+      "finalScore": 63.59323543722724
     },
     {
       "title": "Resin Change in Medical Tubing Set Causes Malfunction",
@@ -396,7 +456,7 @@
       "description": "A change in the resin used to manufacture a bloodline set used in hemodialysis is causing air bubbles to adhere to the device. FDA has issued an early alert.",
       "summary": "A change in the resin used to manufacture a bloodline set used in hemodialysis is causing air bubbles to adhere to the device. FDA has issued an early...",
       "relevanceScore": 30,
-      "finalScore": 63.77206794744037
+      "finalScore": 63.54933015419164
     },
     {
       "title": "New Tech Plastics Expands Ohio Operations",
@@ -406,7 +466,7 @@
       "description": "The project will create 30 new jobs, renovate an underutilized industrial facility, and increase production capacity.",
       "summary": "The project will create 30 new jobs, renovate an underutilized industrial facility, and increase production capacity....",
       "relevanceScore": 30,
-      "finalScore": 63.745703962703644
+      "finalScore": 63.5226231829671
     },
     {
       "title": "Plastics by the Numbers",
@@ -416,7 +476,7 @@
       "description": "Market reports on thermoformed plastics, 3D-printed packaging, advanced recycling, CO2-based plastics, polyethylene furanoate (PEF), flexible packaging, and graphene-enhanced plastics are featured in this slideshow.",
       "summary": "Market reports on thermoformed plastics, 3D-printed packaging, advanced recycling, CO2-based plastics, polyethylene furanoate (PEF), flexible packagin...",
       "relevanceScore": 30,
-      "finalScore": 63.54689761740012
+      "finalScore": 63.32123043462893
     },
     {
       "title": "Talent Talk: Manufacturing Hiring Rebounds, as Plastics Industry Adds About 2,500 Jobs",
@@ -426,7 +486,7 @@
       "description": "The March jobs report shows surprising manufacturing gains. Economic trends suggest a hiring opportunity for companies.",
       "summary": "The March jobs report shows surprising manufacturing gains. Economic trends suggest a hiring opportunity for companies....",
       "relevanceScore": 30,
-      "finalScore": 63.37479861038322
+      "finalScore": 63.14689247797826
     },
     {
       "title": "Re-thinking corrosion – from costly challenge to competitive strength",
@@ -436,7 +496,7 @@
       "description": "A global survey of 1,000 manufacturers reveals how European manufacturers are balancing regulatory demands, sector nuances, and sustainability in the coatings market to achieve corrosion protection that pays, not costs. By Jorrit van Rijn, Marketing Director of AkzoNobel Powder Coatings",
       "summary": "A global survey of 1,000 manufacturers reveals how European manufacturers are balancing regulatory demands, sector nuances, and sustainability in the ...",
       "relevanceScore": 40,
-      "finalScore": 63.34110797128209
+      "finalScore": 63.0477152331826
     },
     {
       "title": "APR Unveils Semiannual Updates to Plastics Recyclability Design Guide",
@@ -446,67 +506,7 @@
       "description": "The Association of Plastic Recyclers has introduced semiannual updates to its APR Design Guide for Plastics Recyclability, enhancing coordination with industry tools and fostering innovation.",
       "summary": "The Association of Plastic Recyclers has introduced semiannual updates to its APR Design Guide for Plastics Recyclability, enhancing coordination with...",
       "relevanceScore": 30,
-      "finalScore": 62.994272398796426
-    },
-    {
-      "title": "PlasticsToday Week in Review: April 3, 2026",
-      "link": "https://www.plasticstoday.com/industry-trends/plasticstoday-week-in-review-april-3-2026",
-      "date": "2026-04-03T18:01:25.000Z",
-      "category": "材料创新",
-      "description": "This week’s PlasticsToday Week in Review covers key developments in the plastics and materials industries.",
-      "summary": "This week’s PlasticsToday Week in Review covers key developments in the plastics and materials industries....",
-      "relevanceScore": 30,
-      "finalScore": 62.984853375738425
-    },
-    {
-      "title": "EPA Tags Microplastics as Contaminants in Drinking Water",
-      "link": "https://www.plasticstoday.com/legislation-regulations/epa-tags-microplastics-as-contaminants-in-drinking-water",
-      "date": "2026-04-03T16:08:41.000Z",
-      "category": "材料创新",
-      "description": "In lock step with EPA, HHS announces $144 million program to measure and monitor microplastics in drinking water and ultimately remove them.",
-      "summary": "In lock step with EPA, HHS announces $144 million program to measure and monitor microplastics in drinking water and ultimately remove them....",
-      "relevanceScore": 30,
-      "finalScore": 62.96916119052554
-    },
-    {
-      "title": "Opportunity Knocks for Gen Z in Tech-driven Plastics Manufacturing",
-      "link": "https://www.plasticstoday.com/workforce-training/headline-plastics-industry-evolves-with-tech-offering-gen-z-high-paying-jobs-and-a-chance-to-impact-sustainability",
-      "date": "2026-04-03T13:15:23.000Z",
-      "category": "材料创新",
-      "description": "Plastics manufacturing is evolving into a high-tech, innovative industry that offers Gen Z professionals opportunities for career growth, problem-solving, and sustainability impact.",
-      "summary": "Plastics manufacturing is evolving into a high-tech, innovative industry that offers Gen Z professionals opportunities for career growth, problem-solv...",
-      "relevanceScore": 30,
-      "finalScore": 62.94503828368882
-    },
-    {
-      "title": "Research progress on lignin-based composite coatings for wood protection",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/research-progress-on-lignin-based-composite-coatings-for-wood-protection/",
-      "date": "2026-04-03T09:33:47.000Z",
-      "category": "材料创新",
-      "description": "A review explores the advantages, challenges, and optimisation strategies for lignin-based composite coatings, highlighting their potential as eco-friendly alternatives for wood protection.",
-      "summary": "A review explores the advantages, challenges, and optimisation strategies for lignin-based composite coatings, highlighting their potential as eco-fri...",
-      "relevanceScore": 30,
-      "finalScore": 62.91419214315207
-    },
-    {
-      "title": "Kureha Invests in Z-Polymers to Advance Liquid Crystal Polymer Technology",
-      "link": "https://www.plasticstoday.com/materials/headline-kureha-invests-in-z-polymers-to-advance-high-performance-liquid-crystal-polymer-technology-for-global-markets",
-      "date": "2026-04-02T21:39:19.000Z",
-      "category": "材料创新",
-      "description": "Z-Polymers partners with Kureha to scale its innovative liquid crystal polymer platform for industrial and 3D printing applications.",
-      "summary": "Z-Polymers partners with Kureha to scale its innovative liquid crystal polymer platform for industrial and 3D printing applications....",
-      "relevanceScore": 30,
-      "finalScore": 62.814740251415536
-    },
-    {
-      "title": "Interview:“High-quality, bio-based raw materials are now available for powder coating production”",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/interviewhigh-quality-bio-based-raw-materials-are-now-available-for-powder-coating-production/",
-      "date": "2026-04-01T14:57:37.000Z",
-      "category": "汽车防腐",
-      "description": "Powder coatings are already among the most environmentally friendly surface finishing options, but advancements in bio-based raw materials, recycled components, and mass-balanced approaches could take sustainability to the next level. Savvas Legidis, Head of Technology at IGP Pulvertechnik, shares insights into innovation and sustainability trends in the industry. Interview by Bettina Hoffmann",
-      "summary": "Powder coatings are already among the most environmentally friendly surface finishing options, but advancements in bio-based raw materials, recycled c...",
-      "relevanceScore": 30,
-      "finalScore": 62.55838042728865
+      "finalScore": 62.76141574961138
     }
   ]
 }
