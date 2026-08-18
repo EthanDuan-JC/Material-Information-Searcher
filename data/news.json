@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-17T02:10:07.811Z",
-  "updateTime": "2026/8/17 02:10:07",
+  "lastUpdated": "2026-08-18T02:06:33.447Z",
+  "updateTime": "2026/8/18 02:06:33",
   "totalArticles": 50,
   "categories": [
     "材料创新",
@@ -16,7 +16,7 @@
       "description": "NexPoint Materials launches as standalone engineering thermoplastics company following acquisition from Sabic, offering polycarbonate, ABS, and PBT resin solutions.",
       "summary": "NexPoint Materials launches as standalone engineering thermoplastics company following acquisition from Sabic, offering polycarbonate, ABS, and PBT re...",
       "relevanceScore": 70,
-      "finalScore": 82.8846459188844
+      "finalScore": 82.31337919640751
     },
     {
       "title": "Lignin-based epoxy resins approach viability for metal coatings",
@@ -26,7 +26,7 @@
       "description": "Researchers have developed fully lignin-based epoxy resin systems for metal coating applications that deliver reliable adhesion, impact resistance and durability – positioning depolymerised lignin as a scalable, bio-based alternative to bisphenol-derived resins.",
       "summary": "Researchers have developed fully lignin-based epoxy resin systems for metal coating applications that deliver reliable adhesion, impact resistance and...",
       "relevanceScore": 70,
-      "finalScore": 62.65565135746762
+      "finalScore": 62.15763705664304
     },
     {
       "title": "Functionalised aluminium oxide enhances corrosion resistance of epoxy coatings on mild steel",
@@ -36,7 +36,7 @@
       "description": "A study demonstrates how functionalised aluminium oxide nanoparticles (Al₂O₃F) improve the corrosion resistance of epoxy coatings, paving the way for advanced protective applications in aggressive environments.",
       "summary": "A study demonstrates how functionalised aluminium oxide nanoparticles (Al₂O₃F) improve the corrosion resistance of epoxy coatings, paving the way for ...",
       "relevanceScore": 60,
-      "finalScore": 47.71381462043412
+      "finalScore": 47.25180129901801
     },
     {
       "title": "Nippon Paint Holdings to reacquire European automotive coatings business",
@@ -46,7 +46,7 @@
       "description": "Nippon Paint Holdings has announced the reacquisition of its European automotive coatings business from the Wuthelam Group. The transaction, valued at approximately EUR 47 million, follows a restructuring period during which the business was held by the controlling shareholder and has since returned to profitability.",
       "summary": "Nippon Paint Holdings has announced the reacquisition of its European automotive coatings business from the Wuthelam Group. The transaction, valued at...",
       "relevanceScore": 90,
-      "finalScore": 94.4627884852751
+      "finalScore": 93.88580705639745
     },
     {
       "title": "Sustainable anti-corrosion coating systems for steel bridges",
@@ -56,7 +56,7 @@
       "description": "A recent study evaluates the long-term sustainability of anticorrosion coating systems for steel bridges, considering performance, costs, and environmental as well as social impacts over a seventy-five-year service life.",
       "summary": "A recent study evaluates the long-term sustainability of anticorrosion coating systems for steel bridges, considering performance, costs, and environm...",
       "relevanceScore": 90,
-      "finalScore": 45.60991081671226
+      "finalScore": 45.20983346396364
     },
     {
       "title": "Multifunctional superamphiphobic coating enhances corrosion and icing resistance on aluminium alloy",
@@ -66,7 +66,7 @@
       "description": "A new superamphiphobic coating for 5083 aluminium alloy combines water and oil repellency with anti-corrosion and anti-icing performance, promising broad industrial applications.",
       "summary": "A new superamphiphobic coating for 5083 aluminium alloy combines water and oil repellency with anti-corrosion and anti-icing performance, promising br...",
       "relevanceScore": 70,
-      "finalScore": 59.94560986878157
+      "finalScore": 59.45740906121894
     },
     {
       "title": "Bio-based methacrylates yield selective antimicrobial polymers",
@@ -76,7 +76,7 @@
       "description": "Researchers have developed 15 amphiphilic random copolymers from amino acid-derived and terpene-based methacrylates, demonstrating that lysine-rich compositions deliver the highest antimicrobial activity and selectivity. The findings open new pathways for sustainable alternatives to conventional antibiotics.",
       "summary": "Researchers have developed 15 amphiphilic random copolymers from amino acid-derived and terpene-based methacrylates, demonstrating that lysine-rich co...",
       "relevanceScore": 60,
-      "finalScore": 67.52355639855124
+      "finalScore": 66.98980883680261
     },
     {
       "title": "Non-toxic phosphorus-sulfur flame retardants for fire-safe aircraft seat textiles",
@@ -86,7 +86,7 @@
       "description": "A new study investigates phosphorus-sulfur compounds as safe and effective flame-retardant solutions for polyamide-based aircraft seat textiles applied via a back-coating method.",
       "summary": "A new study investigates phosphorus-sulfur compounds as safe and effective flame-retardant solutions for polyamide-based aircraft seat textiles applie...",
       "relevanceScore": 60,
-      "finalScore": 39.07047927323531
+      "finalScore": 38.63976485021047
     },
     {
       "title": "Cheminformatics approach to predict VOC release from coatings",
@@ -96,7 +96,27 @@
       "description": "Miles Brockbank and Erik Sapper (Cal Poly) are developing structure-property models that link molecular structure to the volatility and transport of small molecules in coatings systems. The approach combines thermogravimetric analysis with quantitative structure-property relationship (QSAR/QSPR) modelling and aims to predict how volatile additives behave in evolving polymer matrices, supporting the development of lower-emission coatings.",
       "summary": "Miles Brockbank and Erik Sapper (Cal Poly) are developing structure-property models that link molecular structure to the volatility and transport of s...",
       "relevanceScore": 40,
-      "finalScore": 63.749617862337196
+      "finalScore": 63.19332473717987
+    },
+    {
+      "title": "PPG breaks ground on automotive coatings expansion in Ohio",
+      "link": "https://www.european-coatings.com/news/markets-companies/ppg-breaks-ground-on-automotive-coatings-expansion-in-ohio/",
+      "date": "2026-08-17T09:26:00.000Z",
+      "category": "汽车防腐",
+      "description": "PPG has begun construction on a new advanced manufacturing facility at its existing site in Delaware, Ohio. The investment of more than USD 280 million is aimed at expanding automotive coatings production capacity for North American OEMs and parts suppliers.",
+      "summary": "PPG has begun construction on a new advanced manufacturing facility at its existing site in Delaware, Ohio. The investment of more than USD 280 millio...",
+      "relevanceScore": 60,
+      "finalScore": 79.95329101761615
+    },
+    {
+      "title": "CLP: What coatings manufacturers must do now",
+      "link": "https://www.european-coatings.com/news/legislation/clp-what-coatings-manufacturers-must-do-now/",
+      "date": "2026-08-17T10:09:34.000Z",
+      "category": "汽车防腐",
+      "description": "Obligatory classification has applied to new substances since 1 May 2025 and will apply to new mixtures from 1 May 2026. These changes have direct consequences for formulations, ¬safety data sheets, and labels in the paints and coatings ¬industry. By Wafa Stapelfeld, Umco.",
+      "summary": "Obligatory classification has applied to new substances since 1 May 2025 and will apply to new mixtures from 1 May 2026. These changes have direct con...",
+      "relevanceScore": 40,
+      "finalScore": 69.95951158415127
     },
     {
       "title": "Rigid-flexible interface enhances carbon fibre/epoxy performance",
@@ -106,7 +126,7 @@
       "description": "A novel \"rigid-flexible\" interface design combining lignin-based epoxy resin with nano-cerium oxide sol significantly enhances the mechanical performance of carbon fibre/epoxy composites. The approach increased interlaminar shear strength by 55 %, flexural strength by 95 % and tensile strength by 67 %, while using renewable lignin as an eco-friendly alternative to petroleum-based modifiers.",
       "summary": "A novel \"rigid-flexible\" interface design combining lignin-based epoxy resin with nano-cerium oxide sol significantly enhances the mechanical performa...",
       "relevanceScore": 50,
-      "finalScore": 69.94315320128185
+      "finalScore": 69.38253809394988
     },
     {
       "title": "Haitian, Hennecke Partner on Paint-Free Automotive Manufacturing Solutions",
@@ -116,7 +136,7 @@
       "description": "Haitian International and Germany's Hennecke partner to develop integrated injection molding and in-mold coating solutions for automotive applications.",
       "summary": "Haitian International and Germany's Hennecke partner to develop integrated injection molding and in-mold coating solutions for automotive applications...",
       "relevanceScore": 40,
-      "finalScore": 69.72491820343328
+      "finalScore": 69.14698756096107
     },
     {
       "title": "Ultrasonic guided waves cut corrosion rate on coated steel pipes",
@@ -126,7 +146,7 @@
       "description": "A novel active anti-corrosion technique uses ultrasonic guided waves as an \"acoustic coating\" to protect metal surfaces against salt-spray corrosion. Experimental results show that the method reduces the corrosion rate of unprotected steel pipes by 33.5 % and further enhances the performance of conventional epoxy, acrylic and polyurethane coatings.",
       "summary": "A novel active anti-corrosion technique uses ultrasonic guided waves as an \"acoustic coating\" to protect metal surfaces against salt-spray corrosion. ...",
       "relevanceScore": 50,
-      "finalScore": 69.16351116491609
+      "finalScore": 68.60571926597505
     },
     {
       "title": "Superamphiphobic PPS coating delays icing and repels liquids",
@@ -136,7 +156,7 @@
       "description": "Researchers have developed a multifunctional polyphenylene sulfide-based composite coating that combines superamphiphobicity, mechanical durability and delayed icing. The system repels liquids of various surface tensions and significantly prolongs the freezing time of water droplets, opening up applications in anti-corrosion, self-cleaning and anti-icing.",
       "summary": "Researchers have developed a multifunctional polyphenylene sulfide-based composite coating that combines superamphiphobicity, mechanical durability an...",
       "relevanceScore": 50,
-      "finalScore": 68.74495578285104
+      "finalScore": 68.18867953982847
     },
     {
       "title": "Machine learning transforms design of surface coatings",
@@ -146,7 +166,7 @@
       "description": "A new review examines how machine learning is transforming the design and optimisation of surface coatings. By capturing complex relationships between formulation, processing parameters and performance, data-driven approaches can significantly accelerate the development of functional coatings with tailored properties such as adhesion, hardness, durability and corrosion resistance.",
       "summary": "A new review examines how machine learning is transforming the design and optimisation of surface coatings. By capturing complex relationships between...",
       "relevanceScore": 40,
-      "finalScore": 68.45178836604813
+      "finalScore": 67.87846793014765
     },
     {
       "title": "Tariff Uncertainty Drives Caution in Recycled Plastics Markets",
@@ -156,7 +176,7 @@
       "description": "US recycled plastics markets experience mixed pricing trends as regulatory uncertainty, logistics costs, and supply constraints shape buyer behavior across multiple resin segments.",
       "summary": "US recycled plastics markets experience mixed pricing trends as regulatory uncertainty, logistics costs, and supply constraints shape buyer behavior a...",
       "relevanceScore": 40,
-      "finalScore": 68.13854534713002
+      "finalScore": 67.56635921425345
     },
     {
       "title": "Zinc morphology boosts corrosion protection in epoxy primers",
@@ -166,7 +186,7 @@
       "description": "Researchers have demonstrated that tailoring the morphology and crystallographic orientation of zinc particles significantly improves the corrosion protection performance of zinc-rich epoxy coatings. A simple thermal treatment produces zinc with more active crystal planes, extending cathodic protection from ten to nearly 70 days.",
       "summary": "Researchers have demonstrated that tailoring the morphology and crystallographic orientation of zinc particles significantly improves the corrosion pr...",
       "relevanceScore": 50,
-      "finalScore": 67.77657356646787
+      "finalScore": 67.22380399018644
     },
     {
       "title": "Isocyanate-free 2K DTM coating targets gloss and corrosion",
@@ -176,7 +196,7 @@
       "description": "A newly developed water-borne, isocyanate-free 2K direct-to-metal (DTM) coating combines a carboxy-functional acrylic dispersion with epoxy-functional trialkoxysilanes. The modular formulation aims to provide a more economical and sustainable alternative to conventional 2K polyurethane systems, with a focus on gloss and corrosion protection.",
       "summary": "A newly developed water-borne, isocyanate-free 2K direct-to-metal (DTM) coating combines a carboxy-functional acrylic dispersion with epoxy-functional...",
       "relevanceScore": 60,
-      "finalScore": 67.7322178926025
+      "finalScore": 67.19771473424237
     },
     {
       "title": "Ball mill grinding enables sustainable polyester depolymerisation",
@@ -186,7 +206,7 @@
       "description": "Researchers have developed a mechanochemical approach to depolymerise post-consumer aliphatic polyesters such as PLA, PHAs and biodegradable multilayer flexible film packaging. The recovered monomers are converted in a one-pot process into α-lipoic acid-based photopolymer resins that form tunable, dynamic and degradable covalent adaptable networks.",
       "summary": "Researchers have developed a mechanochemical approach to depolymerise post-consumer aliphatic polyesters such as PLA, PHAs and biodegradable multilaye...",
       "relevanceScore": 40,
-      "finalScore": 67.61955224547913
+      "finalScore": 67.04924546955235
     },
     {
       "title": "Polyurea composite coating combines UV and corrosion resistance",
@@ -196,7 +216,7 @@
       "description": "Researchers have developed a high-performance polyurea composite coating featuring silica nanoparticles functionalised with a light stabiliser and fluorocarbon chains. The system delivers strong UV stability, corrosion resistance and acid/base resistance, offering long-term protection for metal equipment exposed to outdoor environments.",
       "summary": "Researchers have developed a high-performance polyurea composite coating featuring silica nanoparticles functionalised with a light stabiliser and flu...",
       "relevanceScore": 60,
-      "finalScore": 66.89701781678639
+      "finalScore": 66.36553905135551
     },
     {
       "title": "Functional silanes advance chromate-free corrosion protection",
@@ -206,7 +226,7 @@
       "description": "A new review provides a comprehensive assessment of functionalisation strategies for silane-based sol-gel coatings used in chromate-free corrosion protection. The authors integrate organofunctional silanes, hydrophobic modifiers, hybrid architectures, nanocomposites and stimuli-responsive chemistries into a unified structure-property-function framework, offering actionable design principles for next-generation anticorrosion coatings.",
       "summary": "A new review provides a comprehensive assessment of functionalisation strategies for silane-based sol-gel coatings used in chromate-free corrosion pro...",
       "relevanceScore": 40,
-      "finalScore": 66.59865237242525
+      "finalScore": 66.0320424380661
     },
     {
       "title": "Self-healing coating protects carbon steel in marine environments",
@@ -216,7 +236,7 @@
       "description": "Researchers have developed a stress-responsive self-healing coating that combines TiO₂-modified amino-functionalised hollow mesoporous silica nanoparticles with the corrosion inhibitor sodium phytate. Under mechanical stress, the coating releases the inhibitor at micro-damage sites, forming a protective film that restores corrosion resistance and improves long-term performance of Q235 carbon steel in marine environments.",
       "summary": "Researchers have developed a stress-responsive self-healing coating that combines TiO₂-modified amino-functionalised hollow mesoporous silica nanopart...",
       "relevanceScore": 40,
-      "finalScore": 66.39478431768174
+      "finalScore": 65.82891262212442
     },
     {
       "title": "Nippon Paint Holdings reorganises Japan subsidiaries",
@@ -226,7 +246,47 @@
       "description": "Nippon Paint Holdings has announced a restructuring of its Japanese subsidiary network, effective January 2027. The reorganisation will dissolve Nippon Paint Surf Chemicals and redistribute its surface treatment business across two other consolidated subsidiaries.",
       "summary": "Nippon Paint Holdings has announced a restructuring of its Japanese subsidiary network, effective January 2027. The reorganisation will dissolve Nippo...",
       "relevanceScore": 40,
-      "finalScore": 66.17126961034951
+      "finalScore": 65.60620729726236
+    },
+    {
+      "title": "AI-Powered Vision Systems Transform Plastics Quality Control",
+      "link": "https://www.plasticstoday.com/injection-molding/ai-powered-vision-systems-transform-plastics-quality-control",
+      "date": "2026-08-17T13:10:22.000Z",
+      "category": "材料创新",
+      "description": "Artificial intelligence is enabling vision systems to detect subtle plastics defects in real time, reducing scrap and improving quality control.",
+      "summary": "Artificial intelligence is enabling vision systems to detect subtle plastics defects in real time, reducing scrap and improving quality control....",
+      "relevanceScore": 30,
+      "finalScore": 64.98532669730085
+    },
+    {
+      "title": "Hydrogel antifouling coatings analysed by OCT in real time",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/hydrogel-antifouling-coatings-analysed-by-oct-in-real-time/",
+      "date": "2026-08-17T10:51:14.000Z",
+      "category": "汽车防腐",
+      "description": "A new study uses optical coherence tomography and rheometry to analyse how formulation and salinity influence the performance of xanthan gum-based hydrogel antifouling coatings. The findings provide guidance for developing durable marine coatings with reduced biocide content.",
+      "summary": "A new study uses optical coherence tomography and rheometry to analyse how formulation and salinity influence the performance of xanthan gum-based hyd...",
+      "relevanceScore": 30,
+      "finalScore": 64.965460863546
+    },
+    {
+      "title": "Why AI makes human judgement more valuable in coatings",
+      "link": "https://www.european-coatings.com/news/people-careers/why-ai-makes-human-judgement-more-valuable-in-coatings/",
+      "date": "2026-08-17T08:27:19.000Z",
+      "category": "汽车防腐",
+      "description": "AI is transforming formulation, regulatory work and technical training in the coatings industry. Dr. Evripidis Tsaousoglou explains why faster access to answers does not replace expertise—and why practical judgement, scientific understanding and real-world experience will matter more than ever. An interview by editor Yeray López Arauco with Evripidis Tsaousoglou, Managing Director of the Institute of Coating Technologies.",
+      "summary": "AI is transforming formulation, regulatory work and technical training in the coatings industry. Dr. Evripidis Tsaousoglou explains why faster access ...",
+      "relevanceScore": 30,
+      "finalScore": 64.94491205251663
+    },
+    {
+      "title": "Catalyxx to build first commercial-scale bio-based chemicals plant in Portugal",
+      "link": "https://www.european-coatings.com/news/markets-companies/catalyxx-to-build-first-commercial-scale-bio-based-chemicals-plant-in-portugal/",
+      "date": "2026-08-17T07:20:19.000Z",
+      "category": "车内健康",
+      "description": "Catalyxx has selected Sines, Portugal, as the location for its first commercial-scale renewable chemicals facility. The plant will produce bio-based butanol, hexanol and octanol from bioethanol, with construction scheduled to begin by Q4 2026.",
+      "summary": "Catalyxx has selected Sines, Portugal, as the location for its first commercial-scale renewable chemicals facility. The plant will produce bio-based b...",
+      "relevanceScore": 30,
+      "finalScore": 64.9353456112499
     },
     {
       "title": "ExxonMobil Launches Advanced Resin for Rotational Molding",
@@ -236,7 +296,7 @@
       "description": "ExxonMobil introduces Exceed Tough m 4536UV12, a high-performance polyethylene resin designed specifically for demanding rotational molding applications worldwide.",
       "summary": "ExxonMobil introduces Exceed Tough m 4536UV12, a high-performance polyethylene resin designed specifically for demanding rotational molding applicatio...",
       "relevanceScore": 30,
-      "finalScore": 64.7892463022449
+      "finalScore": 64.21108271744806
     },
     {
       "title": "Plastics Industry Backs Federal Recycled Content Tracking Bill",
@@ -246,27 +306,7 @@
       "description": "Plastics Pipe Institute endorses bipartisan Senate bill establishing federal standards for tracking recycled plastic content in construction and infrastructure applications.",
       "summary": "Plastics Pipe Institute endorses bipartisan Senate bill establishing federal standards for tracking recycled plastic content in construction and infra...",
       "relevanceScore": 30,
-      "finalScore": 64.7596927307481
-    },
-    {
-      "title": "Mitsui Chemicals Invests in AI-Driven Bioplastics Startup",
-      "link": "https://www.plasticstoday.com/materials/mitsui-chemicals-invests-in-ai-driven-bioplastics-startup",
-      "date": "2026-08-13T13:50:10.000Z",
-      "category": "材料创新",
-      "description": "Mitsui Chemicals invests in Materia Bioworks to expand bioplastic offerings using AI-powered design platform for sustainable materials.",
-      "summary": "Mitsui Chemicals invests in Materia Bioworks to expand bioplastic offerings using AI-powered design platform for sustainable materials....",
-      "relevanceScore": 30,
-      "finalScore": 64.74659018563483
-    },
-    {
-      "title": "Carbonate placement enables degradable PE-like polymers",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/carbonate-placement-enables-degradable-pe-like-polymers/",
-      "date": "2026-08-13T12:37:53.000Z",
-      "category": "材料创新",
-      "description": "Researchers demonstrate that the precise placement of hydrolysable carbonate units along a polyethylene-like backbone enables chemical deconstruction while preserving crystallinity. The approach opens design routes for degradable polyolefin-type materials with tunable thermal and mechanical properties.",
-      "summary": "Researchers demonstrate that the precise placement of hydrolysable carbonate units along a polyethylene-like backbone enables chemical deconstruction ...",
-      "relevanceScore": 30,
-      "finalScore": 64.73623186661256
+      "finalScore": 64.18163616415595
     },
     {
       "title": "Keratin from chicken feathers boosts coating performance",
@@ -276,7 +316,27 @@
       "description": "Researchers at Fraunhofer IPA and Fraunhofer IAP are investigating whether keratin extracted from chicken feathers can be used as a multifunctional additive in coatings. The bio-based protein could improve corrosion protection, UV resistance and microbial resistance, while reducing production costs and resource consumption.",
       "summary": "Researchers at Fraunhofer IPA and Fraunhofer IAP are investigating whether keratin extracted from chicken feathers can be used as a multifunctional ad...",
       "relevanceScore": 40,
-      "finalScore": 64.73335007096296
+      "finalScore": 64.17349469428986
+    },
+    {
+      "title": "Mitsui Chemicals Invests in AI-Driven Bioplastics Startup",
+      "link": "https://www.plasticstoday.com/materials/mitsui-chemicals-invests-in-ai-driven-bioplastics-startup",
+      "date": "2026-08-13T13:50:10.000Z",
+      "category": "材料创新",
+      "description": "Mitsui Chemicals invests in Materia Bioworks to expand bioplastic offerings using AI-powered design platform for sustainable materials.",
+      "summary": "Mitsui Chemicals invests in Materia Bioworks to expand bioplastic offerings using AI-powered design platform for sustainable materials....",
+      "relevanceScore": 30,
+      "finalScore": 64.16858106545217
+    },
+    {
+      "title": "Carbonate placement enables degradable PE-like polymers",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/carbonate-placement-enables-degradable-pe-like-polymers/",
+      "date": "2026-08-13T12:37:53.000Z",
+      "category": "材料创新",
+      "description": "Researchers demonstrate that the precise placement of hydrolysable carbonate units along a polyethylene-like backbone enables chemical deconstruction while preserving crystallinity. The approach opens design routes for degradable polyolefin-type materials with tunable thermal and mechanical properties.",
+      "summary": "Researchers demonstrate that the precise placement of hydrolysable carbonate units along a polyethylene-like backbone enables chemical deconstruction ...",
+      "relevanceScore": 30,
+      "finalScore": 64.15826025555819
     },
     {
       "title": "Sherwin-Williams ends paint manufacturing in Jamaica and shifts to distribution model",
@@ -286,7 +346,7 @@
       "description": "Sherwin-Williams has ceased production at its White Marl facility in St. Catherine, Jamaica, transitioning the local operation to a distribution-only model. Products previously manufactured on-site will be imported through the company's existing supply chain.",
       "summary": "Sherwin-Williams has ceased production at its White Marl facility in St. Catherine, Jamaica, transitioning the local operation to a distribution-only ...",
       "relevanceScore": 30,
-      "finalScore": 64.69098437897662
+      "finalScore": 64.113176616305
     },
     {
       "title": "Currier Plastics Acquires Sage Product Development",
@@ -296,7 +356,7 @@
       "description": "Currier Plastics acquires the Foxborough, MA-based product engineering firm, expanding its medical device engineering capabilities and creating a comprehensive development and manufacturing solution.",
       "summary": "Currier Plastics acquires the Foxborough, MA-based product engineering firm, expanding its medical device engineering capabilities and creating a comp...",
       "relevanceScore": 30,
-      "finalScore": 64.52448938765497
+      "finalScore": 63.94728452995077
     },
     {
       "title": "EC Podcast: Overcoming the digital divide in coatings innovation with Albert Invent",
@@ -306,7 +366,7 @@
       "description": "What drives a seasoned R&D leader to leave a major multinational and reshape digital formulation? In the latest episode of the European Coatings Podcast, editor Yeray Lopez is joined by Nick Talken, CEO and co-founder of software provider Albert Invent, to discuss the digital evolution of laboratory environments in the coatings industry.",
       "summary": "What drives a seasoned R&D leader to leave a major multinational and reshape digital formulation? In the latest episode of the European Coatings Podca...",
       "relevanceScore": 30,
-      "finalScore": 64.49876435786734
+      "finalScore": 63.92165265460654
     },
     {
       "title": "AIMPLAS advances microalgae-based coatings in EU MULTIPLY project",
@@ -316,7 +376,7 @@
       "description": "The EU-funded MULTIPLY project unites 17 partners to develop ten microalgae-based solutions for food, feed, cosmetics, lubricants and packaging. AIMPLAS is contributing recyclable barrier coatings for paper substrates and active cosmetic packaging derived from algae compounds.",
       "summary": "The EU-funded MULTIPLY project unites 17 partners to develop ten microalgae-based solutions for food, feed, cosmetics, lubricants and packaging. AIMPL...",
       "relevanceScore": 30,
-      "finalScore": 64.48748652009394
+      "finalScore": 63.91041565568579
     },
     {
       "title": "Lincoln Pool Coating Failure Sparks Federal Investigation",
@@ -326,7 +386,7 @@
       "description": "Federal court documents identify specific polymeric coating failures at Lincoln Reflecting Pool, pinpointing polyurethane foam as culprit in ongoing controversy.",
       "summary": "Federal court documents identify specific polymeric coating failures at Lincoln Reflecting Pool, pinpointing polyurethane foam as culprit in ongoing c...",
       "relevanceScore": 30,
-      "finalScore": 64.34598094355903
+      "finalScore": 63.769422493454364
     },
     {
       "title": "Plastic Alternatives Often Worse for Environment, Research Shows",
@@ -336,7 +396,7 @@
       "description": "Mounting scientific evidence suggests that policies targeting plastic reduction may inadvertently increase environmental harm and costs across multiple industries.",
       "summary": "Mounting scientific evidence suggests that policies targeting plastic reduction may inadvertently increase environmental harm and costs across multipl...",
       "relevanceScore": 30,
-      "finalScore": 64.31857689641546
+      "finalScore": 63.74211768074434
     },
     {
       "title": "Nanoflower microcapsules power anti-/deicing coatings",
@@ -346,7 +406,7 @@
       "description": "A newly developed photothermal superhydrophobic coating combines nanoflower-like double-shell phase-change microcapsules with a low-surface-energy fluorosilane matrix. Under simulated icing conditions, the coating enables rapid deicing within 44 seconds while maintaining excellent superhydrophobic and mechanical performance.",
       "summary": "A newly developed photothermal superhydrophobic coating combines nanoflower-like double-shell phase-change microcapsules with a low-surface-energy flu...",
       "relevanceScore": 30,
-      "finalScore": 64.29575372450473
+      "finalScore": 63.71937715518595
     },
     {
       "title": "How cool is a cool coating? Digital twins predict thermal performance in buildings",
@@ -356,37 +416,7 @@
       "description": "How multiphysics simulation can help formulators assess IR-reflective coatings under realistic conditions and establish the basis for long-term performance prediction. By Yeray López Arauco, based on research by Carson Dorough and Erik Sapper, California Polytechnic State University, San Luis Obispo.",
       "summary": "How multiphysics simulation can help formulators assess IR-reflective coatings under realistic conditions and establish the basis for long-term perfor...",
       "relevanceScore": 30,
-      "finalScore": 64.2803464116127
-    },
-    {
-      "title": "Resin Price Report: Buyers Face Split Market as Summer Leverage Shifts",
-      "link": "https://www.plasticstoday.com/resin-pricing/resin-price-report-buyers-face-split-market-as-summer-leverage-shifts",
-      "date": "2026-08-10T12:48:01.000Z",
-      "category": "材料创新",
-      "description": "A split market entering August — and why the difference between commodity and benzene-linked materials matters more than it did a month ago.",
-      "summary": "A split market entering August — and why the difference between commodity and benzene-linked materials matters more than it did a month ago....",
-      "relevanceScore": 30,
-      "finalScore": 64.11862097599487
-    },
-    {
-      "title": "Japanese Firms Debut In-Mold Coating for Auto Parts",
-      "link": "https://www.plasticstoday.com/automotive-mobility/japanese-firms-debut-in-mold-coating-for-auto-parts",
-      "date": "2026-08-10T12:16:53.000Z",
-      "category": "汽车防腐",
-      "description": "Japanese companies develop first in-mold coating technology for large thermoplastic automotive exterior parts, reducing emissions and enabling advanced designs.",
-      "summary": "Japanese companies develop first in-mold coating technology for large thermoplastic automotive exterior parts, reducing emissions and enabling advance...",
-      "relevanceScore": 30,
-      "finalScore": 64.11415951878169
-    },
-    {
-      "title": "Europe’s Top 25 coatings manufacturers by country",
-      "link": "https://www.european-coatings.com/news/markets-companies/europes-top-25-coatings-manufacturers-by-country/",
-      "date": "2026-08-10T12:10:53.000Z",
-      "category": "汽车防腐",
-      "description": "Europe’s coatings industry continues to be shaped by a small number of countries. The recently published 2026 Top 25 ranking of Europe’s largest coatings manufacturers shows that Germany, the Netherlands, and the Nordic countries remain the industry’s key hubs.",
-      "summary": "Europe’s coatings industry continues to be shaped by a small number of countries. The recently published 2026 Top 25 ranking of Europe’s largest coati...",
-      "relevanceScore": 30,
-      "finalScore": 64.11329970904038
+      "finalScore": 63.70402563463581
     },
     {
       "title": "Brazil enacts stringent lead paint law, aligning with global standards",
@@ -396,7 +426,37 @@
       "description": "Brazil has passed Law 15,441/2026, setting a maximum lead content of 90 ppm for all paint categories. The regulation modernises the country’s coatings sector, enhancing public health and environmental protections while aligning with international best practices.",
       "summary": "Brazil has passed Law 15,441/2026, setting a maximum lead content of 90 ppm for all paint categories. The regulation modernises the country’s coatings...",
       "relevanceScore": 40,
-      "finalScore": 64.10489841252371
+      "finalScore": 63.54731875972469
+    },
+    {
+      "title": "Resin Price Report: Buyers Face Split Market as Summer Leverage Shifts",
+      "link": "https://www.plasticstoday.com/resin-pricing/resin-price-report-buyers-face-split-market-as-summer-leverage-shifts",
+      "date": "2026-08-10T12:48:01.000Z",
+      "category": "材料创新",
+      "description": "A split market entering August — and why the difference between commodity and benzene-linked materials matters more than it did a month ago.",
+      "summary": "A split market entering August — and why the difference between commodity and benzene-linked materials matters more than it did a month ago....",
+      "relevanceScore": 30,
+      "finalScore": 63.542885832662094
+    },
+    {
+      "title": "Japanese Firms Debut In-Mold Coating for Auto Parts",
+      "link": "https://www.plasticstoday.com/automotive-mobility/japanese-firms-debut-in-mold-coating-for-auto-parts",
+      "date": "2026-08-10T12:16:53.000Z",
+      "category": "汽车防腐",
+      "description": "Japanese companies develop first in-mold coating technology for large thermoplastic automotive exterior parts, reducing emissions and enabling advanced designs.",
+      "summary": "Japanese companies develop first in-mold coating technology for large thermoplastic automotive exterior parts, reducing emissions and enabling advance...",
+      "relevanceScore": 30,
+      "finalScore": 63.53844053109836
+    },
+    {
+      "title": "Europe’s Top 25 coatings manufacturers by country",
+      "link": "https://www.european-coatings.com/news/markets-companies/europes-top-25-coatings-manufacturers-by-country/",
+      "date": "2026-08-10T12:10:53.000Z",
+      "category": "汽车防腐",
+      "description": "Europe’s coatings industry continues to be shaped by a small number of countries. The recently published 2026 Top 25 ranking of Europe’s largest coatings manufacturers shows that Germany, the Netherlands, and the Nordic countries remain the industry’s key hubs.",
+      "summary": "Europe’s coatings industry continues to be shaped by a small number of countries. The recently published 2026 Top 25 ranking of Europe’s largest coati...",
+      "relevanceScore": 30,
+      "finalScore": 63.537583834865515
     },
     {
       "title": "Chitosan microspheres enable smart corrosion warning coatings",
@@ -406,7 +466,7 @@
       "description": "Researchers have developed a smart corrosion-warning coating based on chitosan microspheres encapsulating phenolphthalein. The pH-responsive system visibly signals localised corrosion through a striking red colour change within 30 seconds, offering a powerful tool for predictive maintenance of metallic substrates.",
       "summary": "Researchers have developed a smart corrosion-warning coating based on chitosan microspheres encapsulating phenolphthalein. The pH-responsive system vi...",
       "relevanceScore": 60,
-      "finalScore": 64.0148710782167
+      "finalScore": 63.49382902665791
     },
     {
       "title": "Mechanical deformation drives water uptake in coil-coatings",
@@ -416,7 +476,7 @@
       "description": "A new study investigates how mechanical deformation influences water uptake and failure mechanisms in polyester/melamine coil-coatings on hot-dip galvanized steel. Using Erichsen cupping tests combined with electrochemical impedance spectroscopy, the researchers identified a critical deformation threshold above which blistering and coating failure are strongly accelerated.",
       "summary": "A new study investigates how mechanical deformation influences water uptake and failure mechanisms in polyester/melamine coil-coatings on hot-dip galv...",
       "relevanceScore": 40,
-      "finalScore": 63.5360936665268
+      "finalScore": 62.98057374660106
     },
     {
       "title": "Specialty Polymers Market Surges Toward $64 Billion",
@@ -426,7 +486,7 @@
       "description": "The US specialty polymers market is projected to reach $64.31 billion by 2035, driven by demand for high-performance materials.",
       "summary": "The US specialty polymers market is projected to reach $64.31 billion by 2035, driven by demand for high-performance materials....",
       "relevanceScore": 30,
-      "finalScore": 63.500735423932056
+      "finalScore": 62.92723774291384
     },
     {
       "title": "Bio-based coatings: “The greatest potential is in polymers for interior wall paints”",
@@ -436,7 +496,7 @@
       "description": "Bio-based raw materials: sustainability and performance in transition. In this interview, Eugénie Charrière, strategic marketing & business excellence director at Ecoat, explains why bio‑based binders are gaining traction in architectural and industrial coatings. Interview by Kirsten Wrede",
       "summary": "Bio-based raw materials: sustainability and performance in transition. In this interview, Eugénie Charrière, strategic marketing & business excellence...",
       "relevanceScore": 60,
-      "finalScore": 63.43776439149545
+      "finalScore": 62.91881213546385
     },
     {
       "title": "UV LED technology drives green transition in wood coatings",
@@ -446,67 +506,7 @@
       "description": "A new review examines the growing role of UV LED light-curing technology in the wood coatings industry. The authors highlight advances in resin systems, light sources and photoinitiators that address key challenges such as under-curing, yellowing and toxic migration, positioning UV LED curing as a central driver of sustainable transformation in wood surface engineering.",
       "summary": "A new review examines the growing role of UV LED light-curing technology in the wood coatings industry. The authors highlight advances in resin system...",
       "relevanceScore": 30,
-      "finalScore": 63.252455807689984
-    },
-    {
-      "title": "Axalta and Akzo Nobel shareholders approve merger of equals in landmark coatings industry vote",
-      "link": "https://www.european-coatings.com/news/markets-companies/axalta-and-akzo-nobel-shareholders-approve-merger-of-equals-in-landmark-coatings-industry-vote/",
-      "date": "2026-08-06T07:43:43.000Z",
-      "category": "汽车防腐",
-      "description": "Shareholders of both Axalta Coating Systems and Akzo Nobel have voted overwhelmingly in favour of a proposed all-stock merger of equals, marking a significant milestone in the creation of a combined global coatings company. Completion remains subject to regulatory approvals, with finalisation expected in late 2026 or early 2027.",
-      "summary": "Shareholders of both Axalta Coating Systems and Akzo Nobel have voted overwhelmingly in favour of a proposed all-stock merger of equals, marking a sig...",
-      "relevanceScore": 30,
-      "finalScore": 63.24959694030016
-    },
-    {
-      "title": "Mohsin Habib Chowdhury new CEO and Managing Director of Berger Paints Bangladesh",
-      "link": "https://www.european-coatings.com/news/markets-companies/mohsin-habib-chowdhury-new-ceo-and-managing-director-of-berger-paints-bangladesh/",
-      "date": "2026-08-06T04:30:40.000Z",
-      "category": "汽车防腐",
-      "description": "Mohsin Habib Chowdhury has taken charge as the Chief Executive Officer and Managing Director of Berger Paints Bangladesh.",
-      "summary": "Mohsin Habib Chowdhury has taken charge as the Chief Executive Officer and Managing Director of Berger Paints Bangladesh....",
-      "relevanceScore": 30,
-      "finalScore": 63.22193256187382
-    },
-    {
-      "title": "Project Trims Vehicle Weight with Ultralight Recyclable Panels",
-      "link": "https://www.plasticstoday.com/automotive-mobility/project-trims-vehicle-weight-with-ultralight-recyclable-panels",
-      "date": "2026-08-05T11:15:03.000Z",
-      "category": "材料创新",
-      "description": "Superpan project develops ultralight, recyclable composite panels for transport structures using thermoplastic matrices and automated manufacturing processes.",
-      "summary": "Superpan project develops ultralight, recyclable composite panels for transport structures using thermoplastic matrices and automated manufacturing pr...",
-      "relevanceScore": 30,
-      "finalScore": 63.073527012164966
-    },
-    {
-      "title": "Plastics Industry Faces Critical Worker Shortage Crisis",
-      "link": "https://www.plasticstoday.com/workforce-training/plastics-industry-faces-critical-worker-shortage-as-experienced-employees-retire-and-fewer-enter",
-      "date": "2026-08-05T10:38:29.000Z",
-      "category": "材料创新",
-      "description": "The plastics sector needs 84,000 new workers in 10 years as older staff exit and automation demands grow, prompting training and outreach efforts.",
-      "summary": "The plastics sector needs 84,000 new workers in 10 years as older staff exit and automation demands grow, prompting training and outreach efforts....",
-      "relevanceScore": 30,
-      "finalScore": 63.068286949463825
-    },
-    {
-      "title": "QSPR models forecast Tg across diverse polymer libraries",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/qspr-models-forecast-tg-across-diverse-polymer-libraries/",
-      "date": "2026-08-05T07:30:51.000Z",
-      "category": "材料创新",
-      "description": "A comparative study evaluates several machine learning-based QSPR techniques for predicting the glass transition temperature (Tg) of polymers across a broad dataset. Using 250 polymers and 17 selected molecular descriptors, a Multi-Layer Perceptron model achieved the highest predictive accuracy, offering a valuable tool for accelerating polymer design and thermal property assessment.",
-      "summary": "A comparative study evaluates several machine learning-based QSPR techniques for predicting the glass transition temperature (Tg) of polymers across a...",
-      "relevanceScore": 30,
-      "finalScore": 63.04139878816505
-    },
-    {
-      "title": "Protective coatings: “Balancing sustainability, durability, and cost efficiency”",
-      "link": "https://www.european-coatings.com/news/application-areas/protective-coatings-balancing-sustainability-durability-and-cost-efficiency/",
-      "date": "2026-08-04T13:00:35.000Z",
-      "category": "汽车防腐",
-      "description": "Protective coatings must withstand harsh environments while meeting tighter sustainability targets. Raghuraman Govindan Karunakaran, senior product development chemist for crosslinkers at Evonik's Global Coatings Applied Technology division, explains how raw material innovation is helping formulators reconcile high performance with regulatory compliance and cost efficiency.",
-      "summary": "Protective coatings must withstand harsh environments while meeting tighter sustainability targets. Raghuraman Govindan Karunakaran, senior product de...",
-      "relevanceScore": 30,
-      "finalScore": 62.88229577225818
+      "finalScore": 62.67985718683422
     }
   ]
 }
